@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Your Comments | Dalilah's Space</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="navbar">
+
+    <a href="index.html" class="brand">
+      Dalilah's <span>Space✦</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links">
+
+      <a href="index.html">⌂ Home</a>
+
+      <a href="biodata.html">♟ My Biodata</a>
+
+      <a href="portfolio.html">▣ My Portfolio</a>
+
+      <a href="video.html">▶ My Video</a>
+
+      <a href="comments.html" class="active">
+        ☏ Your Comments
+      </a>
+
+    </nav>
+
+    <span class="nav-star">✦</span>
+
+  </header>
+
+  <main class="page">
+
+    <!-- PAGE TITLE -->
+    <div class="page-title">
+
+      <span class="eyebrow">
+        ✦ LET'S CONNECT
+      </span>
+
+      <h1>Your <em>Comments</em></h1>
+
+      <p>
+        Your thoughts and feedback mean a lot.
+        Feel free to leave a message!
+      </p>
+
+    </div>
+
+    <section class="panel comments-panel">
+
+      <h2>✦ Leave a Message</h2>
+
+      <p>
+        Have something to share?
+        I'd love to hear your thoughts!
+      </p>
+
+      <form
+        id="commentForm"
+        action="https://formspree.io/f/xljbdnnk"
+        method="POST"
+      >
+
+        <label class="form-label" for="visitorName">
+          Your Name
+        </label>
+
+        <input
+          type="text"
+          id="visitorName"
+          name="name"
+          placeholder="Enter your name"
+          required
+        >
+
+        <label class="form-label" for="visitorEmail">
+          Your Email
+        </label>
+
+        <input
+          type="email"
+          id="visitorEmail"
+          name="email"
+          placeholder="Enter your email"
+          required
+        >
+
+        <label class="form-label" for="visitorMessage">
+          Your Message
+        </label>
+
+        <textarea
+          id="visitorMessage"
+          name="message"
+          rows="5"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+
+        <button
+          type="submit"
+          class="primary-button"
+        >
+          Send Message
+          <span>➜</span>
+        </button>
+
+        <p
+          id="formStatus"
+          role="status"
+          aria-live="polite">
+        </p>
+
+      </form>
+
+    </section>
+
+    <section class="panel contact-section">
+
+      <h2>✦ Connect With Me</h2>
+
+      <p>
+        Have a question, creative idea, or collaboration
+        in mind? Feel free to reach out and connect with me!
+      </p>
+
+      <div class="contact-links">
+
+        <a
+          href="mailto:nur_dalilah_bi24@iluv.ums.edu.my"
+          class="contact-item"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email Me</span>
+        </a>
+
+        <a
+          href="https://www.instagram.com/dalilahfrhna._/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-item"
+        >
+          <i class="fa-brands fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/USERNAME/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-item"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p>
+      Made with ♡ by Dalilah
+      · Personal Digital Portfolio
+    </p>
+
+  </footer>
+
+</body>
+</html>
